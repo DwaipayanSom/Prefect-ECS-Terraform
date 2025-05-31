@@ -86,32 +86,32 @@ terraform apply
 ``` 
 Confirm with yes when prompted. Terraform will provision:
 
-VPC with public & private subnets
-
-IAM roles for ECS
-
-ECS cluster with Cloud Map service discovery
-
-Secrets Manager for Prefect API key
-
-ECS Fargate service running the Prefect dev-worker
+        VPC with public & private subnets
+        
+        IAM roles for ECS
+        
+        ECS cluster with Cloud Map service discovery
+        
+        Secrets Manager for Prefect API key
+        
+        ECS Fargate service running the Prefect dev-worker
 
 
 Verifying the Deployment
 
-Go to Prefect Cloud
-
-Navigate to your ecs-work-pool
-
-Ensure the worker appears online
-
-Run a test flow and confirm it's picked up
-
-You can also check AWS Console → ECS → Clusters → Services for the running task.
+        Go to Prefect Cloud
+        
+        Navigate to your ecs-work-pool
+        
+        Ensure the worker appears online
+        
+        Run a test flow and confirm it's picked up
+        
+        You can also check AWS Console → ECS → Clusters → Services for the running task.
 
 
 Cleanup
-To destroy all provisioned infrastructure:
+        To destroy all provisioned infrastructure:
 ``` bash
 terraform destroy
 ``` 
