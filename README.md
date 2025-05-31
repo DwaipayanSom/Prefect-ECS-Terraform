@@ -51,9 +51,13 @@ Cloud Architecture Diagram
 Prerequisites
 
 Terraform v1.5+
+
 AWS CLI
+
 Prefect CLI
+
 An active Prefect Cloud account
+
 A Push Work Pool created in Prefect Cloud
 
 ⚙Configuration
