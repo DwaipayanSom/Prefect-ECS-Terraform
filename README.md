@@ -44,6 +44,9 @@ prefect-ecs-terraform/
     ├── variables.tf
     └── outputs.tf
 ```
+Cloud Architecture Diagram
+
+![Cloud Architecture Diagram](.ECS-Prefect-Architecture Diagram.png)
 
 Prerequisites
 
