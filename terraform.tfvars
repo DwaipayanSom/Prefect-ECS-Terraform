@@ -1,0 +1,6 @@
+prefect_api_key         = "pnu_w5ljzcxpZAHFWI3q9RUmVlsvIT0dnA2htF2C"
+prefect_api_url         = "https://api.prefect.cloud/api"
+prefect_account_id      = "eb9d9872-c2e7-4e58-85a4-6b9fd027e1f7"
+prefect_workspace_id    = "a5e6c962-c032-4f66-a4ed-2b1eb1984d3e"
+prefect_work_pool_name  = "ecs-work-pool"
+aws_region              = "us-east-1" 
