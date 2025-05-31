@@ -29,17 +29,17 @@ prefect-ecs-terraform/
 │   ├── variables.tf
 │   └── outputs.tf
 
-├── ecs-cluster/             # ECS cluster & service discovery
+├── ecs/                     # ECS cluster & service discovery
 │   ├── main.tf
 │   ├── variables.tf
 │   └── outputs.tf
 
-├── secrets-manager/        # Stores Prefect API key securely
+├── secrets/                 # Stores Prefect API key securely
 │   ├── main.tf
 │   ├── variables.tf
 │   └── outputs.tf
 
-└── ecs-task-service/        # ECS Task Definition & Fargate service
+└── worker/                  # ECS Task Definition & Fargate service
     ├── main.tf
     ├── variables.tf
     └── outputs.tf
